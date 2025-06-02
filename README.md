@@ -94,20 +94,14 @@ npm run dev
 請於 `backend` 目錄下建立 `.env` 檔案，範例如下：
 
 ```env
-PORT=4000
+PORT=5001
 MONGODB_URI="mongodb+srv://<username>:<password>@cluster0.xxxxxx.mongodb.net"
 CLOUDINARY_API_KEY="your_cloudinary_api_key"
 CLOUDINARY_SECRET_KEY="your_cloudinary_secret"
 CLOUDINARY_NAME="your_cloudinary_name"
 JWT_SECRET="your_jwt_secret"
-ADMIN_EMAIL="your_admin_email"
-ADMIN_PASSWORD="your_admin_password"
+NODE_ENV=development
 ```
-請於 `frontend`和 `admin` 目錄下各建立一個 `.env` 檔案，範例如下：
-```env
-VITE_BACKEND_URL=http://localhost:4000
-```
----
 
 ## 🗃️ MongoDB Atlas 資料庫設定
 
@@ -129,6 +123,3 @@ VITE_BACKEND_URL=http://localhost:4000
 3. 將這些資訊複製並填入 `.env` 檔案中。
 
 ---
-
-**學習資料** : [GreatStack](https://www.youtube.com/watch?v=7E6um7NGmeE)  
-Thanks for [GreatStake](https://www.youtube.com/@GreatStackDev), helps me to build this awesome project!
