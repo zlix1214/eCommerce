@@ -123,3 +123,4 @@ NODE_ENV=development
 3. 將這些資訊複製並填入 `.env` 檔案中。
 
 ---
+**參考資料** : [GreatStack](https://www.youtube.com/watch?v=7E6um7NGme)  
